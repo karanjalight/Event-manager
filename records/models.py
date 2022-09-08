@@ -10,3 +10,5 @@ class Record (models.Model):
     log = models.ForeignKey(Trackable,on_delete=CASCADE,related_name='logged')
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)
+
+    #setting records straight
